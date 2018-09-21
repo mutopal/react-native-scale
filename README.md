@@ -12,9 +12,48 @@ $ npm i react-native-scale --save-dev
 
 ## Usage
 
+ 
 ```js
-var react-native-scale = require('react-native-scale');
+import {wp,hp,ael,rel,normalize} from "react-native-scale"
+
+const styles = StyleSheet.create({
+  container: {
+    width:wp("75") ,
+    height:hp("25"),
+    backgroundColor:"green",
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  text: {
+    fontSize: normalize(12),
+    color:"white"
+ }})
+
 ```
+## Usage with styledComponents
+
+ 
+```js
+import {wp,hp,ael,rel,normalize} from "react-native-scale"
+import styled from 'styled-components/native'
+   
+
+   const Container = styled.View`
+   width: ${wp("98") } ;
+    height: ${hp("15")} ;
+    background-color: #FFFFFF;
+`
+
+const StyledText = styled.Text`
+    align-items: 'center';
+    background-color: '#DDDDDD';
+    font-size : ${normalize(18)};
+ 
+`
+
+
+```
+
 
 ## Running tests
 
