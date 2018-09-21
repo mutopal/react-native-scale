@@ -1,0 +1,26 @@
+{
+  "name": "react-native-scale",
+  "version": "1.0.3",
+  "description": "https://github.com/hmdevelop",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmdevelop/react-native-scale.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-scale"
+  ],
+  "author": "mustafa topal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hmdevelop/react-native-scale/issues"
+  },
+  "homepage": "https://github.com/hmdevelop/react-native-scale#readme",
+  "dependencies": {
+    "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz"
+  }
+}
